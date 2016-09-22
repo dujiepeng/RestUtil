@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		382CC25A0534CA96205A3EEC /* libPods-EaseLogUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E08B6A36FF267D4A5420728C /* libPods-EaseLogUtil.a */; };
+		90178F6D1D92A7F3000335D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90178F6C1D92A7F3000335D9 /* AppDelegate.m */; };
+		90178F701D92A7F3000335D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90178F6F1D92A7F3000335D9 /* main.m */; };
+		90178F731D92A7F3000335D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90178F721D92A7F3000335D9 /* ViewController.m */; };
+		90178F751D92A7F3000335D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90178F741D92A7F3000335D9 /* Assets.xcassets */; };
+		90178F781D92A7F3000335D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90178F761D92A7F3000335D9 /* Main.storyboard */; };
+		90AA066E1D9393520013FDC8 /* ToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AA066D1D9393520013FDC8 /* ToastView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		187AE64DCA21D6D9DE6337F1 /* Pods-EaseLogUtil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseLogUtil.release.xcconfig"; path = "Pods/Target Support Files/Pods-EaseLogUtil/Pods-EaseLogUtil.release.xcconfig"; sourceTree = "<group>"; };
+		90178F681D92A7F3000335D9 /* EaseLogUtil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EaseLogUtil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90178F6B1D92A7F3000335D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		90178F6C1D92A7F3000335D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		90178F6F1D92A7F3000335D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90178F711D92A7F3000335D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		90178F721D92A7F3000335D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		90178F741D92A7F3000335D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90178F771D92A7F3000335D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90178F791D92A7F3000335D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90AA066C1D9393520013FDC8 /* ToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToastView.h; sourceTree = "<group>"; };
+		90AA066D1D9393520013FDC8 /* ToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToastView.m; sourceTree = "<group>"; };
+		D81E1B1B313C5B224893FE75 /* Pods-EaseLogUtil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseLogUtil.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EaseLogUtil/Pods-EaseLogUtil.debug.xcconfig"; sourceTree = "<group>"; };
+		E08B6A36FF267D4A5420728C /* libPods-EaseLogUtil.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EaseLogUtil.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90178F651D92A7F3000335D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				382CC25A0534CA96205A3EEC /* libPods-EaseLogUtil.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		359FD372E8BFB07C0A163236 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D81E1B1B313C5B224893FE75 /* Pods-EaseLogUtil.debug.xcconfig */,
+				187AE64DCA21D6D9DE6337F1 /* Pods-EaseLogUtil.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		90178F5F1D92A7F3000335D9 = {
+			isa = PBXGroup;
+			children = (
+				90178F6A1D92A7F3000335D9 /* EaseLogUtil */,
+				90178F691D92A7F3000335D9 /* Products */,
+				359FD372E8BFB07C0A163236 /* Pods */,
+				D907DA8C41317B6DADB04A4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		90178F691D92A7F3000335D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90178F681D92A7F3000335D9 /* EaseLogUtil.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90178F6A1D92A7F3000335D9 /* EaseLogUtil */ = {
+			isa = PBXGroup;
+			children = (
+				90178F6B1D92A7F3000335D9 /* AppDelegate.h */,
+				90178F6C1D92A7F3000335D9 /* AppDelegate.m */,
+				90178F711D92A7F3000335D9 /* ViewController.h */,
+				90178F721D92A7F3000335D9 /* ViewController.m */,
+				90178F741D92A7F3000335D9 /* Assets.xcassets */,
+				90178F761D92A7F3000335D9 /* Main.storyboard */,
+				90178F791D92A7F3000335D9 /* Info.plist */,
+				90178F6E1D92A7F3000335D9 /* Supporting Files */,
+				90AA066C1D9393520013FDC8 /* ToastView.h */,
+				90AA066D1D9393520013FDC8 /* ToastView.m */,
+			);
+			path = EaseLogUtil;
+			sourceTree = "<group>";
+		};
+		90178F6E1D92A7F3000335D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90178F6F1D92A7F3000335D9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D907DA8C41317B6DADB04A4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E08B6A36FF267D4A5420728C /* libPods-EaseLogUtil.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90178F671D92A7F3000335D9 /* EaseLogUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90178F7C1D92A7F3000335D9 /* Build configuration list for PBXNativeTarget "EaseLogUtil" */;
+			buildPhases = (
+				4A09BA4EC68A86F31F9B896B /* [CP] Check Pods Manifest.lock */,
+				90178F641D92A7F3000335D9 /* Sources */,
+				90178F651D92A7F3000335D9 /* Frameworks */,
+				90178F661D92A7F3000335D9 /* Resources */,
+				CF9260AE10B39B1C3570FD04 /* [CP] Embed Pods Frameworks */,
+				F5E0AAD30B45B9A126D90608 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EaseLogUtil;
+			productName = EaseLogUtil;
+			productReference = 90178F681D92A7F3000335D9 /* EaseLogUtil.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90178F601D92A7F3000335D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "杜洁鹏";
+				TargetAttributes = {
+					90178F671D92A7F3000335D9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 90178F631D92A7F3000335D9 /* Build configuration list for PBXProject "EaseLogUtil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90178F5F1D92A7F3000335D9;
+			productRefGroup = 90178F691D92A7F3000335D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90178F671D92A7F3000335D9 /* EaseLogUtil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90178F661D92A7F3000335D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90178F751D92A7F3000335D9 /* Assets.xcassets in Resources */,
+				90178F781D92A7F3000335D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A09BA4EC68A86F31F9B896B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF9260AE10B39B1C3570FD04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EaseLogUtil/Pods-EaseLogUtil-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5E0AAD30B45B9A126D90608 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EaseLogUtil/Pods-EaseLogUtil-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90178F641D92A7F3000335D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AA066E1D9393520013FDC8 /* ToastView.m in Sources */,
+				90178F731D92A7F3000335D9 /* ViewController.m in Sources */,
+				90178F701D92A7F3000335D9 /* main.m in Sources */,
+				90178F6D1D92A7F3000335D9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		90178F761D92A7F3000335D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90178F771D92A7F3000335D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90178F7A1D92A7F3000335D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		90178F7B1D92A7F3000335D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		90178F7D1D92A7F3000335D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D81E1B1B313C5B224893FE75 /* Pods-EaseLogUtil.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EaseLogUtil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easemob.EaseLogUtil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		90178F7E1D92A7F3000335D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 187AE64DCA21D6D9DE6337F1 /* Pods-EaseLogUtil.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EaseLogUtil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easemob.EaseLogUtil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90178F631D92A7F3000335D9 /* Build configuration list for PBXProject "EaseLogUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90178F7A1D92A7F3000335D9 /* Debug */,
+				90178F7B1D92A7F3000335D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90178F7C1D92A7F3000335D9 /* Build configuration list for PBXNativeTarget "EaseLogUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90178F7D1D92A7F3000335D9 /* Debug */,
+				90178F7E1D92A7F3000335D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90178F601D92A7F3000335D9 /* Project object */;
+}
